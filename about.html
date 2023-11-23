@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PetCare | About</title>
+    <link rel="icon" href="images/favicon.jpg">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<!--ВЕРХНЯЯ МЕНЮШКА-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-1"
+     style="background-color: rgba(255, 205, 215, 0.9)">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse mx-3" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="navbar-item ms-2 me-3 my-auto">
+                    <a class="nav-link active text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+                       aria-current="page" id="fade" href="index.html" style="font-size: 24px">
+                        <button class="btn btn-lg" id="main_button">
+                            <span class="fw-normal">PetCare | Animal welfare website</span>
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block "
+                       href="about.html">
+                        <button class="btn btn-lg ani_button mx-2">
+                            <span class="lead">About</span></button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+                       aria-current="page" href="index.html">
+                        <button class="btn btn-lg ani_button mx-2" id="services_button"><span class="lead">Services</span></button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+                       aria-current="page" href="pets.html">
+                        <button class="btn btn-lg ani_button mx-2"><span class="lead">Pets</span></button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+                       aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#aboutUs">
+                        <button class="btn btn-sm ani_button mx-2" id="Button3"><span class="lead">Contact Us</span></button>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+</nav>
+<br><br><br>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/dog_cat.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <fieldset class="border border-secondary py-3" style="background-color: rgba(255, 255, 255, 0.5)">
+                <h5 >The standards are higher here</h5>
+                <p>Since 2015, we’ve been raising the bar for what pet care facilities should be. All PetCare centers offer individual suites that are clean and climate controlled, with premium food, bedding and an extensive menu of custom activities and services available.</p>
+                </fieldset>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/dogi.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <fieldset class="border border-secondary py-3" style="background-color: rgba(255, 255, 255, 0.5)">
+                <h5>Personalized for every pet</h5>
+                <p>At Best Friends we know your pet isn’t just another dog, cat or gerbil. That’s why customization is such a big part of our experience. We take the time to get to know your pet’s unique preferences and work with you to design the perfect stay for them.</p>
+                </fieldset>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/зз.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <fieldset class="border border-secondary py-3" style="background-color: rgba(255, 255, 255, 0.5)">
+                <h5>Care for the furry and feathered alike</h5>
+                <p>Whether you’re the proud owner of a pug, parrot or pocket pig, we’re the village you need to help care for them. We offer boarding, doggy day camp, training and grooming at more than 30 locations nationwide.
+
+                </p>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- CONTACT US MODAL -->
+<div class="modal fade" id="aboutUs" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Contact Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="lead">
+                    <p> <i class="fa-solid fa-address-book"></i> Rakhila Kairbolatkyzy
+                    <p> <i class="fa-solid fa-at"></i> Email: example@gmail.com
+                    <p> <i class="fa-solid fa-phone"></i> Phone: +7-708-248-1111
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" aria-label="Close" id="sendButton">OK
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--JAVASCRIPT-->
+<script src="main.js"></script>
+
+<audio id="sound" src="wind_sound.wav"></audio>
+
+</body>
+</html>

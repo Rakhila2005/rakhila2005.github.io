@@ -1,0 +1,98 @@
+/* Footer styles */
+footer {
+    background-color: rgba(255, 205, 215, 0.9);
+    padding: 20px;
+    text-align: center;
+    }
+    .footer-links {
+    margin-bottom: 20px;
+    }
+    .footer-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    }
+    #footer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .social{
+      padding: 5px;
+      border-radius: 3px;
+      
+    }
+    .text{
+      padding: 0px;
+      margin: 0px;
+    }
+    .social{
+      height: 40px;
+          text-decoration: none;
+          display: flex;
+          justify-content: flex-start;
+          margin: 20px;
+    }
+    /**/
+
+.services{
+    width: 100%;
+    background-color: lightcyan;
+    padding: 40px 40px;
+}
+.charity{
+    width: 100%;
+    background-color: lightcyan;
+    padding: 40px 40px;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+.ani_button{
+    width: 130%;
+}
+.ani_button:hover {
+    animation: bounce 1.2s;
+}
+
+
+#main_button:hover {
+    color: darkblue;
+    background: rgba(0,0,0,0);
+}
+
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.element-animation {
+    opacity: 0;
+}
+.element-animation.element-show {
+    opacity: 1;
+    transition: opacity 1s;
+}
